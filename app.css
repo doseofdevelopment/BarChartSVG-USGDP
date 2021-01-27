@@ -1,0 +1,47 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Martel Sans', sans-serif;
+    background-color: #6d6875;
+}
+
+#title {
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: #6d6875;
+   
+}
+
+svg {
+    background-color: #ffcdb2;
+    border-radius: 15px;
+}
+
+#tooltip {
+    color: #ffcdb2;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.bar {
+    fill: #e5989b;
+}
+
+.bar:hover {
+    fill: #b5838d;
+}
+
+g {
+    fill: #6d6875;
+}
